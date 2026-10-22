@@ -155,18 +155,21 @@ Adicione capturas de tela demonstrando:
 Explique com suas palavras:
 
 - Como funciona a comunicação entre o Front-End e o Back-End?
+Para a conversa do front com o back ser efetuada, é necessário o front ter como base a mesma porta e rota que o back, após alguns comandos, e iniciando o back com o "node (nome.js)", é só ligar um outro arquivo "nomeAleatório.js" no front, que (pode ser atraves do cors também(middleware)) liga o back com o front.
 - Qual é a finalidade do método POST?
+O método POST serve para literalmente postar informações (enviar).
 - Por que utilizamos `async/await` e `try/catch`?
+Async/await são utilizados para deixar o servidor rodando, enquanto se é consultado o banco de dados. Isso serve para o servidor fazer outras coisas ou continuar rodando enquanto o back-end procura as informações no banco de dados. O Try/catch, é quase um "tipo" de "if/else", eles servem como condicionais para oque está acontecendo no site, e não travar (expliquei mal, basicamente isso).
 - Quais dificuldades você encontrou durante a atividade?
-
+Apenas a sintaxe, é diferente, e para ser memorizada, requer mais tempo de estudo. Na teorica, entendi tudo, só falta decorar a sintaxe exata.
 [Escreva sua conclusão aqui.]
-
+Com está ínfame aula do nosso ilustre Victor, foi possível desvendar os mistérios que englobam juntar o back-end com o front-end. O mais difícil foi (definitivamente ainda é), memorizar como se escreve (sintaxe) de todo o código, a lógica por trás, definitivamente é compreensivel. 
 ---
 
 ## Créditos
 
 **Professor responsável:** Vitor Lima Santana
 
-**Desenvolvido por:** [Nome do aluno]
+**Desenvolvido por:** [Miguel Paulino Alves Pereira]
 
 **Atividade 08 – Desenvolvimento Web e Consumo de APIs REST**
